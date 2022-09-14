@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import DisplayPosts from './Components/DisplayPosts/DisplayPosts'
-
+import AddPost from './Components/AddPost/AddPost'
 
 
 function App() {
@@ -9,9 +9,8 @@ function App() {
 
   return (
     <div>
-      
       <DisplayPosts parentEntries={posts} />
-     
+      <AddPost />
 
     </div>
   );
