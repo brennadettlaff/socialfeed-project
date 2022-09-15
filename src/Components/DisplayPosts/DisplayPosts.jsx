@@ -2,7 +2,7 @@
 const DisplayPosts = (props) => {
   return ( 
     <div>
-      {props.parentEntries.map((post) => {
+      {props.childPosts.parentPosts.map((post) => {
         return (
           <div>
             <h2>{post.name}</h2>
