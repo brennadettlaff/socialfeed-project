@@ -1,0 +1,16 @@
+button {
+    margin: 1em
+}
+
+
+.like{
+    background-color: forestgreen;
+}
+
+.dislike{
+    background-color: crimson;
+}
+
+.inactive{
+    background-color:white
+}

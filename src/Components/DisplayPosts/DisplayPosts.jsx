@@ -1,4 +1,5 @@
 import React from "react";
+import ButtonComponent from '../ButtonComponent/ButtonComponent';
 
 const DisplayPosts = (props) => {
     return ( 
@@ -8,7 +9,9 @@ const DisplayPosts = (props) => {
               <div>
                 <h2>{post.name}</h2>
                 <p> {post.body} </p>
-
+                {/* <button message='like'>like</button>
+                <button message='dislike'>dislike</button> */}
+                <ButtonComponent message='Like'/>
               </div>
             )
           })} 
