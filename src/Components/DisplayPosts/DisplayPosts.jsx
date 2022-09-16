@@ -3,15 +3,13 @@ import ButtonComponent from '../ButtonComponent/ButtonComponent';
 
 const DisplayPosts = (props) => {
     return ( 
-        <div>
+        <div >
           {props.parentPosts.map((post) => {
             return (
               <div>
                 <h2>{post.name}</h2>
-                <p> {post.body} </p>
-                {/* <button message='like'>like</button>
-                <button message='dislike'>dislike</button> */}
-                <ButtonComponent message='Like'/>
+                <div ><p> {post.body} </p></div>
+                <ButtonComponent />
               </div>
             )
           })} 

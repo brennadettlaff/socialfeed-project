@@ -25,10 +25,8 @@ const ButtonComponent = () => {
     return ( 
         <div>
             <div>
-                <button className={buttonClass} onClick={likeButton}> like </button>
-            </div>,
-            <div>            
-                <button className={buttonClass} onClick={dislikeButton}>dislike</button>
+                <button className={buttonClass} style={{margin : '1em'}} onClick={likeButton}> like </button>           
+                <button className={buttonClass} style={{margin : '1em'}} onClick={dislikeButton}>dislike</button>
             </div>
         </div>
 
